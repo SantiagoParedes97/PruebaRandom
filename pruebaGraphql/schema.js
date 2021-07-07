@@ -2,7 +2,7 @@ const { buildSchema } = require('graphql');
 
 const Post = `
   type Post {
-    id: ID
+    id: String
     title: String @deprecated(reason: "No more used")
     createdAt: String
     modifiedAt: String
